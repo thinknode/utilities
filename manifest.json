@@ -1,0 +1,119 @@
+{
+    "dependencies": [],
+    "functions": [{
+        "name": "size_x1",
+        "description": "Gets the size of `collection`. Allocated 1 core.",
+        "execution_class": "cpu.x1",
+        "schema": {
+            "function_type": {
+                "parameters": [{
+                    "name": "collection",
+                    "description": "The array or map.",
+                    "schema": {
+                        "dynamic_type": {}
+                    }
+                }],
+                "returns": {
+                    "description": "The size of `collection`.",
+                    "schema": {
+                        "integer_type": {}
+                    }
+                }
+            }
+        }
+    }, {
+        "name": "size_x2",
+        "description": "Gets the size of `collection`. Allocated 2 cores.",
+        "execution_class": "cpu.x2",
+        "schema": {
+            "function_type": {
+                "parameters": [{
+                    "name": "collection",
+                    "description": "The array or map.",
+                    "schema": {
+                        "dynamic_type": {}
+                    }
+                }],
+                "returns": {
+                    "description": "The size of `collection`.",
+                    "schema": {
+                        "integer_type": {}
+                    }
+                }
+            }
+        }
+    }, {
+        "name": "size_x4",
+        "description": "Gets the size of `collection`. Allocated 4 cores.",
+        "execution_class": "cpu.x4",
+        "schema": {
+            "function_type": {
+                "parameters": [{
+                    "name": "collection",
+                    "description": "The array or map.",
+                    "schema": {
+                        "dynamic_type": {}
+                    }
+                }],
+                "returns": {
+                    "description": "The size of `collection`.",
+                    "schema": {
+                        "integer_type": {}
+                    }
+                }
+            }
+        }
+    }, {
+        "name": "size_x8",
+        "description": "Gets the size of `collection`. Allocated 8 cores.",
+        "execution_class": "cpu.x8",
+        "schema": {
+            "function_type": {
+                "parameters": [{
+                    "name": "collection",
+                    "description": "The array or map.",
+                    "schema": {
+                        "dynamic_type": {}
+                    }
+                }],
+                "returns": {
+                    "description": "The size of `collection`.",
+                    "schema": {
+                        "integer_type": {}
+                    }
+                }
+            }
+        }
+    }, {
+        "name": "size_x16",
+        "description": "Gets the size of `collection`. Allocated 16 cores.",
+        "execution_class": "cpu.x16",
+        "schema": {
+            "function_type": {
+                "parameters": [{
+                    "name": "collection",
+                    "description": "The array or map.",
+                    "schema": {
+                        "dynamic_type": {}
+                    }
+                }],
+                "returns": {
+                    "description": "The size of `collection`.",
+                    "schema": {
+                        "integer_type": {}
+                    }
+                }
+            }
+        }
+    }],
+    "provider": {
+        "private": {
+            "image": {
+                "tag": "1.0.0"
+            }
+        }
+    },
+    "records": [],
+    "types": [],
+    "upgrades": []
+}
